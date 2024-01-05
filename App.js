@@ -5,8 +5,9 @@ import TextInputPage from './component/TextInputPage';
 import FormInputPage from './component/FormInputPage';
 import FlatListPage from './component/FlatListPage';
 import ListWithMapAndScroller from './component/ListWithMapAndScroller';
-import GridDynamic from './component/GridDynamic';
-import TouchableHighlight from './component/TouchableHighlight';
+import GridDynamic from './component/GridDynamic'; 
+import TouchableHighlightPage from './component/TouchableHighlightPage';
+import RadioButtonWithTouchable from './component/RadioButtonWithTouchable';
 
 export default function App() {  
   return (
@@ -16,8 +17,9 @@ export default function App() {
     {/* <FormInputPage/> */}
     {/* <FlatListPage/> */}
     {/* <ListWithMapAndScroller/> */}
-    <GridDynamic/> 
-    {/* <TouchableHighlight/> */}
+    {/* <GridDynamic/>  */}
+    {/* <TouchableHighlightPage/> */}
+    <RadioButtonWithTouchable/>
     </View>
   );
 }
