@@ -1,20 +1,28 @@
-import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
 
-export default function App() {
+import { View } from 'react-native'; 
+import StyleCheckPage from './component/StyleCheckPage';
+import TextInputPage from './component/TextInputPage';
+import FormInputPage from './component/FormInputPage';
+import FlatListPage from './component/FlatListPage';
+import ListWithMapAndScroller from './component/ListWithMapAndScroller';
+import GridDynamic from './component/GridDynamic';
+import TouchableHighlight from './component/TouchableHighlight';
+
+export default function App() {  
   return (
-    <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
-      <StatusBar style="auto" />
+    <View style={{paddingTop : 70}} >
+    {/* <StyleCheckPage /> */}
+    {/* <TextInputPage /> */}
+    {/* <FormInputPage/> */}
+    {/* <FlatListPage/> */}
+    {/* <ListWithMapAndScroller/> */}
+    <GridDynamic/> 
+    {/* <TouchableHighlight/> */}
     </View>
   );
 }
 
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
+
+ 
+ 
+ 
